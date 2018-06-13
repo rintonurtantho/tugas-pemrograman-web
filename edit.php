@@ -81,8 +81,8 @@
    if(isset($_GET['edit']))
    {
   ?>
-
-   <button type="submit" name="update">Update</button>
+<br/>
+   <button type="submit" name="update" class="btn btn-primary">Perbaharui</button>
 
   <?php
    }

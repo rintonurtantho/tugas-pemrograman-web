@@ -2,13 +2,12 @@
 <head>
     <title>Selamat Datang</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <script language="javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 <p align = "center">
-    <a href="index.php">Home</a> /
-    <a href="tambah.php">Tambah Data</a>
+    <a href="index.php">Home</a>
 </p>
 
 <form action = "" method = "POST">
@@ -48,7 +47,10 @@
     }
     ?>
     </table>
-
+<br/>	
+<p align = "center">
+<a href="tambah.php" class="btn btn-success">Tambah Data</a>
+</p>
 </form>
 </body>
 </html>

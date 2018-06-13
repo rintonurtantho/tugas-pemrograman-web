@@ -42,12 +42,12 @@
                 <td>:</td>
                 <td> <input type="text" name="jurusan" placeholder="Masukan Jurusan"> </td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td> <input type="submit" name="simpan" value="Simpan"> </td>
-            </tr>
-        </table>
+            </table>
+			<br/>	
+<p align = "center">
+<button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
+            </p>
+			
     </form>
 </body>
 </html>
